@@ -1,0 +1,27 @@
+//Classes and Objects video 21
+
+class Product{
+
+    constructor(name)
+
+    {
+
+        this.itemName=name;
+
+    }
+
+   
+
+    get getItemName()
+
+    {
+
+        return this.itemName+" is a product";
+
+    }
+
+}
+
+let phone=new Product("iphone")
+
+console.log(phone.getItemName)
